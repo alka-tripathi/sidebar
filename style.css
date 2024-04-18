@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
 }
 nav{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.663);
     width: 100%;
     text-align: center;
     height: 10vh;
@@ -59,7 +59,7 @@ nav i{
     background-color: rgba(255, 255, 255, 0.501);
     display: none;
     flex-direction: column;
-   position: fixed;
+   position:fixed;
    right: 0;
    top:0;
    justify-content: flex-start;
@@ -72,14 +72,51 @@ nav i{
 }
 .sidebar li{
     width: 100%;
-    margin-right: 5vw;
+    height:10vh;
+    /* background-color: aqua; */
+  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  
    
 }
 
+
 .sidebar a{
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
-    
-  
-   font-size: 1.4vw;
+    font-size: 1.6vw;
+    /* padding:1vw 2vw; */
+
+}
+#menu{
+    /* background-color: aqua; */
+    font-size: 7vw;
+    height: 100%;
+    width: 170px;
+}
+
+@media (max-width:600px) {
+    .items{
+        visibility: hidden;
+    }
+
+    .items{
+        visibility: hidden;
+    }
+    .sidebar a{
+        font-size: 6vw;
+        
+    }
+    #logo{
+        padding:5vw 3vw;
+        font-size: 5vw;
+    }
+    #menu{
+        padding:5vw 3vw;
+        font-size: 8vw;
+    }
+   
 }

@@ -1,0 +1,85 @@
+*{
+    padding:0px;
+    margin:0;
+}
+body{
+    height: 100vh;
+    background-image: url("Wallpaper.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav li{
+    height:30px;
+    list-style: none;
+    padding:1vw 1.4vw;
+    /* background-color: antiquewhite; */
+    
+}
+nav a{
+    height:100%;
+    padding: 0.7vw 1.3vw;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-weight: 600;
+    font-size: 19px;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+nav li:first-child{
+    margin-right: auto;
+   
+  
+}
+#logo{
+    font-size: 2.3vw;
+}
+nav i{
+    font-size: 2.5vw;
+}
+.sidebar{
+    height: 100%;
+    width: 270px;
+    background-color: rgba(255, 255, 255, 0.501);
+    display: none;
+    flex-direction: column;
+   position: fixed;
+   right: 0;
+   top:0;
+   justify-content: flex-start;
+   align-items: flex-start;
+   
+   z-index: 999;
+   backdrop-filter: blur(10px);
+
+   
+}
+.sidebar li{
+    width: 100%;
+    margin-right: 5vw;
+   
+}
+
+.sidebar a{
+    text-align: center;
+    width: 100%;
+    
+  
+   font-size: 1.4vw;
+}
